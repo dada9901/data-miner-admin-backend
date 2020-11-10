@@ -1,0 +1,9 @@
+options={
+    "host":"127.0.0.1",
+    "port":"8888",
+    "mysql":"127.0.0.1",
+    "mysql_port":3306,
+    "dbname":"miner",
+    "mysql_user":"root",
+    "mysql_password":"dada9901"
+}

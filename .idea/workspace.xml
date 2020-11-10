@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jbm9sND10yF2xT6SPvoS84JfKM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.launcher">
+    <configuration name="launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adminsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/launcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysqlConnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adminsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysqlConnector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requirementsGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adminsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requirementsGenerator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testTornado" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adminsys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\dada\Desktop\adminsys\launcher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.launcher" />
+        <item itemvalue="Python.testTornado" />
+        <item itemvalue="Python.mysqlConnector" />
+        <item itemvalue="Python.requirementsGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="" />
+      <created>1604081016314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604081016314</updated>
+      <workItem from="1604081017657" duration="625000" />
+      <workItem from="1604107653171" duration="22042000" />
+      <workItem from="1604413723005" duration="794000" />
+      <workItem from="1604836683025" duration="1785000" />
+      <workItem from="1604973883516" duration="1712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1604976866661">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1604976866661" />
+    <state x="512" y="155" key="FileChooserDialogImpl" timestamp="1604976843143">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state x="512" y="155" key="FileChooserDialogImpl/0.0.1463.823@0.0.1463.823" timestamp="1604976843143" />
+    <state width="1420" height="210" key="GridCell.Tab.0.bottom" timestamp="1604367588633">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state width="1420" height="210" key="GridCell.Tab.0.bottom/0.0.1463.823@0.0.1463.823" timestamp="1604367588633" />
+    <state width="1420" height="210" key="GridCell.Tab.0.center" timestamp="1604367588633">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state width="1420" height="210" key="GridCell.Tab.0.center/0.0.1463.823@0.0.1463.823" timestamp="1604367588633" />
+    <state width="1420" height="210" key="GridCell.Tab.0.left" timestamp="1604367588633">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state width="1420" height="210" key="GridCell.Tab.0.left/0.0.1463.823@0.0.1463.823" timestamp="1604367588633" />
+    <state width="1420" height="210" key="GridCell.Tab.0.right" timestamp="1604367588633">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state width="1420" height="210" key="GridCell.Tab.0.right/0.0.1463.823@0.0.1463.823" timestamp="1604367588633" />
+    <state x="235" y="56" key="SettingsEditor" timestamp="1604081625754">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state x="235" y="56" key="SettingsEditor/0.0.1463.823@0.0.1463.823" timestamp="1604081625754" />
+    <state x="394" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1604112097191">
+      <screen x="0" y="0" width="1463" height="823" />
+    </state>
+    <state x="394" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1463.823@0.0.1463.823" timestamp="1604112097191" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adminsys$requirementsGenerator.coverage" NAME="requirementsGenerator Coverage Results" MODIFIED="1604109015368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adminsys$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1604974092287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adminsys$mysqlConnector.coverage" NAME="mysqlConnector Coverage Results" MODIFIED="1604131893616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adminsys$testTornado.coverage" NAME="testTornado Coverage Results" MODIFIED="1604143718929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
