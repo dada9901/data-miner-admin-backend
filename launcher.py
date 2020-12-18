@@ -4,6 +4,7 @@ import registerHandler
 import loginHandler
 import resetPasswordHandler
 import tornado.httpserver
+import minerConfig
 from config import options
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
@@ -17,7 +18,8 @@ def make_app():
         (r"/", MainHandler),
         (r"/register",registerHandler.registerHandler),
         (r"/login",loginHandler.loginHandler),
-        (r"/resetpassword",resetPasswordHandler.resetPasswordHandler)
+        (r"/resetpassword",resetPasswordHandler.resetPasswordHandler),
+        (r"/minerconfig",minerConfig.minerConfigHandler)
     ])
 
 if __name__ == "__main__":

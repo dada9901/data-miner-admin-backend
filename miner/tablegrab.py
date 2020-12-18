@@ -18,7 +18,7 @@ html = '''<div id="songs-list">
 <a href="/3.mp3" singer="齐秦">往事随风</a>
 </li>
 <li data-view="6"><a href="/4.mp3" singer="beyond">光辉岁月</a></li>
-<li data-view="5"><a href="/5.mp3" singer="陈慧琳">记事本</a></li>
+<li id="list2" data-view="5"><a href="/5.mp3" singer="陈慧琳">记事本</a></li>
 <li data-view="5">
 <a href="/6.mp3" singer="邓丽君">但愿人长久</a>
 </li>
@@ -39,7 +39,7 @@ def get_by_id(html, id):
 # print(r.text)
 # result = get_by_id(r.text, 'siteordoccount')      
 # print(result)
-result = get_by_id(html, 'list')
+result = get_by_id(html, 'list2')
 print(result)
 
 

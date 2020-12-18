@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/miner/grab.py" afterDir="false" />
+    <list default="true" id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/minerConfig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/grab.py" beforeDir="false" afterPath="$PROJECT_DIR$/miner/grab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/tablegrab.py" beforeDir="false" afterPath="$PROJECT_DIR$/miner/tablegrab.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -47,7 +51,7 @@
       <recent name="C:\Users\dada\Desktop\adminsys\miner" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.grab">
+  <component name="RunManager" selected="Python.launcher">
     <configuration name="grab" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="adminsys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysqlConnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="minerConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="adminsys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +109,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysqlConnector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minerConfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="requirementsGenerator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tablegrab" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="adminsys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,12 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/miner" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requirementsGenerator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/miner/tablegrab.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,17 +165,17 @@
     <list>
       <item itemvalue="Python.grab" />
       <item itemvalue="Python.launcher" />
-      <item itemvalue="Python.mysqlConnector" />
-      <item itemvalue="Python.requirementsGenerator" />
+      <item itemvalue="Python.minerConfig" />
+      <item itemvalue="Python.tablegrab" />
       <item itemvalue="Python.testTornado" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.grab" />
         <item itemvalue="Python.launcher" />
+        <item itemvalue="Python.minerConfig" />
+        <item itemvalue="Python.grab" />
+        <item itemvalue="Python.tablegrab" />
         <item itemvalue="Python.testTornado" />
-        <item itemvalue="Python.mysqlConnector" />
-        <item itemvalue="Python.requirementsGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +210,11 @@
       <workItem from="1605370143435" duration="134000" />
       <workItem from="1605370300608" duration="740000" />
       <workItem from="1605596338341" duration="1809000" />
+      <workItem from="1605971742197" duration="3963000" />
+      <workItem from="1606580960875" duration="7027000" />
+      <workItem from="1606594701593" duration="2676000" />
+      <workItem from="1606611417849" duration="250000" />
+      <workItem from="1607184226137" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1604976991716</created>
@@ -214,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604976991716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1605971873489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605971873489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,52 +241,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="72" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605370486902">
+    <state x="72" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606594888964">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="72" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.823@0.0.1463.823" timestamp="1605370486902" />
-    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1604976991071">
+    <state x="72" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.823@0.0.1463.823" timestamp="1606594888964" />
+    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1605971877141">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1604976991071" />
+    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1605971877141" />
     <state x="512" y="155" key="FileChooserDialogImpl" timestamp="1604976843143">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="512" y="155" key="FileChooserDialogImpl/0.0.1463.823@0.0.1463.823" timestamp="1604976843143" />
-    <state width="1420" height="210" key="GridCell.Tab.0.bottom" timestamp="1605402481769">
+    <state width="1420" height="210" key="GridCell.Tab.0.bottom" timestamp="1606597399264">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="210" key="GridCell.Tab.0.bottom/0.0.1463.823@0.0.1463.823" timestamp="1605402481769" />
-    <state width="1420" height="210" key="GridCell.Tab.0.center" timestamp="1605402481769">
+    <state width="1420" height="210" key="GridCell.Tab.0.bottom/0.0.1463.823@0.0.1463.823" timestamp="1606597399264" />
+    <state width="1420" height="210" key="GridCell.Tab.0.center" timestamp="1606597399264">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="210" key="GridCell.Tab.0.center/0.0.1463.823@0.0.1463.823" timestamp="1605402481769" />
-    <state width="1420" height="210" key="GridCell.Tab.0.left" timestamp="1605402481769">
+    <state width="1420" height="210" key="GridCell.Tab.0.center/0.0.1463.823@0.0.1463.823" timestamp="1606597399264" />
+    <state width="1420" height="210" key="GridCell.Tab.0.left" timestamp="1606597399263">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="210" key="GridCell.Tab.0.left/0.0.1463.823@0.0.1463.823" timestamp="1605402481769" />
-    <state width="1420" height="210" key="GridCell.Tab.0.right" timestamp="1605402481769">
+    <state width="1420" height="210" key="GridCell.Tab.0.left/0.0.1463.823@0.0.1463.823" timestamp="1606597399263" />
+    <state width="1420" height="210" key="GridCell.Tab.0.right" timestamp="1606597399264">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="210" key="GridCell.Tab.0.right/0.0.1463.823@0.0.1463.823" timestamp="1605402481769" />
+    <state width="1420" height="210" key="GridCell.Tab.0.right/0.0.1463.823@0.0.1463.823" timestamp="1606597399264" />
     <state x="164" y="62" key="SettingsEditor" timestamp="1605370198247">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="164" y="62" key="SettingsEditor/0.0.1463.823@0.0.1463.823" timestamp="1605370198247" />
-    <state x="324" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604976998176">
+    <state x="324" y="147" key="Vcs.Push.Dialog.v2" timestamp="1605971884945">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="324" y="147" key="Vcs.Push.Dialog.v2/0.0.1463.823@0.0.1463.823" timestamp="1604976998176" />
+    <state x="324" y="147" key="Vcs.Push.Dialog.v2/0.0.1463.823@0.0.1463.823" timestamp="1605971884945" />
     <state x="394" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1604112097191">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="394" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1463.823@0.0.1463.823" timestamp="1604112097191" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adminsys$minerConfig.coverage" NAME="minerConfig Coverage Results" MODIFIED="1606596518152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adminsys$requirementsGenerator.coverage" NAME="requirementsGenerator Coverage Results" MODIFIED="1604109015368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adminsys$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1605056190965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adminsys$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1607184250494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adminsys$tablegrab.coverage" NAME="tablegrab Coverage Results" MODIFIED="1605972064758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miner" />
     <SUITE FILE_PATH="coverage/adminsys$mysqlConnector.coverage" NAME="mysqlConnector Coverage Results" MODIFIED="1604131893616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adminsys$testTornado.coverage" NAME="testTornado Coverage Results" MODIFIED="1604143718929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adminsys$grab.coverage" NAME="grab Coverage Results" MODIFIED="1605402481749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miner" />
+    <SUITE FILE_PATH="coverage/adminsys$grab.coverage" NAME="grab Coverage Results" MODIFIED="1606007063154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miner" />
   </component>
 </project>

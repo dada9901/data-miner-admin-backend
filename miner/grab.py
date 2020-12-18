@@ -143,5 +143,8 @@ def main(argv):
     doc = grab(argv[1])
     parse_document(doc, argv[2])
 
+def run(a,b):
+    doc=grab(a)
+    parse_document(doc,b)
 if __name__=="__main__":
     main(sys.argv)
