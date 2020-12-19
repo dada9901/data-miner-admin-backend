@@ -15,7 +15,7 @@ class minerConfigHandler(tornado.web.RequestHandler):
             post_data = self.request.body.decode('utf-8')
             post_data = json.loads(post_data)
         #paraments['account_id']=post_data.get('account_id',None)
-        paraments['time']=post_data.get('time',None)
+        '''paraments['time']=post_data.get('time',None)
         if(paraments['time']==0):
             write0()
         if(paraments['time']==1):
@@ -25,7 +25,7 @@ class minerConfigHandler(tornado.web.RequestHandler):
         if(paraments['time']>=3):
             miner.grabid.run('a','b')
         self.write('1111')
-        return
+        return'''
         paraments['url']=post_data.get('url',None)
         paraments['request_method']=post_data.get('request_method',None)
         paraments['antiminer']=post_data.get('antiminer',None)

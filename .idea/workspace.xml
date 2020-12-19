@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/minerConfig.py" afterDir="false" />
+    <list default="true" id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miner/grab.py" beforeDir="false" afterPath="$PROJECT_DIR$/miner/grab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miner/tablegrab.py" beforeDir="false" afterPath="$PROJECT_DIR$/miner/tablegrab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minerConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/minerConfig.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,9 +162,9 @@
     <list>
       <item itemvalue="Python.grab" />
       <item itemvalue="Python.launcher" />
-      <item itemvalue="Python.minerConfig" />
-      <item itemvalue="Python.tablegrab" />
       <item itemvalue="Python.testTornado" />
+      <item itemvalue="Python.tablegrab" />
+      <item itemvalue="Python.minerConfig" />
     </list>
     <recent_temporary>
       <list>
@@ -215,6 +212,8 @@
       <workItem from="1606594701593" duration="2676000" />
       <workItem from="1606611417849" duration="250000" />
       <workItem from="1607184226137" duration="1049000" />
+      <workItem from="1608296782014" duration="140000" />
+      <workItem from="1608387862992" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1604976991716</created>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605971873489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1608296791823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608296791823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,10 +251,10 @@
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="72" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.823@0.0.1463.823" timestamp="1606594888964" />
-    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1605971877141">
+    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1608296789844">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1605971877141" />
+    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1608296789844" />
     <state x="512" y="155" key="FileChooserDialogImpl" timestamp="1604976843143">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
@@ -273,10 +279,10 @@
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="164" y="62" key="SettingsEditor/0.0.1463.823@0.0.1463.823" timestamp="1605370198247" />
-    <state x="324" y="147" key="Vcs.Push.Dialog.v2" timestamp="1605971884945">
+    <state x="324" y="147" key="Vcs.Push.Dialog.v2" timestamp="1608296810733">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="324" y="147" key="Vcs.Push.Dialog.v2/0.0.1463.823@0.0.1463.823" timestamp="1605971884945" />
+    <state x="324" y="147" key="Vcs.Push.Dialog.v2/0.0.1463.823@0.0.1463.823" timestamp="1608296810733" />
     <state x="394" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1604112097191">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
