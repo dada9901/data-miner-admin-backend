@@ -18,8 +18,9 @@ class loginHandler(tornado.web.RequestHandler):
         sql='select * from user where account_id = %s and password = %s;'
         values=[paraments['account_id'],paraments['password']]
         res=sql_connector.query(sql,values)
+        print(res)
         if(type(res)==tuple and len(res)==1):
-            self.write("OK")
+            self.write({"status":"OK","user_name":res[0][2]})
         else:
             res='输入的账号或密码不存在'
             self.write(res)

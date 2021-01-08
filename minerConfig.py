@@ -2,7 +2,9 @@ import tornado.web
 from mysqlConnector import mysqlConnector
 import miner.grabid
 import miner.grabcontent
+import miner.finalgrab
 import json
+import datetime
 def todo():
     return
 class minerConfigHandler(tornado.web.RequestHandler):
@@ -14,48 +16,57 @@ class minerConfigHandler(tornado.web.RequestHandler):
         if not post_data:
             post_data = self.request.body.decode('utf-8')
             post_data = json.loads(post_data)
-        #paraments['account_id']=post_data.get('account_id',None)
-        '''paraments['time']=post_data.get('time',None)
-        if(paraments['time']==0):
-            write0()
-        if(paraments['time']==1):
-            write1()
-        if(paraments['time']==2):
-            write2()
-        if(paraments['time']>=3):
-            miner.grabid.run('a','b')
-        self.write('1111')
-        return'''
-        paraments['url']=post_data.get('url',None)
-        paraments['request_method']=post_data.get('request_method',None)
-        paraments['antiminer']=post_data.get('antiminer',None)
-        if(paraments['antiminer']=='True'):
-            paraments['header']=post_data.get('header',None)
-        paraments['miner_method'] = post_data.get('miner_method', None)
-        if(paraments['miner_method']=='content'):
-            write1()
-            return
-            paraments['content']=post_data.get('content',None)
-        elif(paraments['miner_method']=='style'):
-            write2()
-            return
-            paraments['get_by_id']=post_data.get('get_by_id',None)
-            paraments['get_by_table'] = post_data.get('get_by_table', None)
-            paraments['get_by_pic']=post_data.get('get_by_pic',None)
-        paraments['timing']=post_data.get('timing',None)
-        if(paraments['timing']!='instant'):
-            paraments['start_time']=post_data.get('start_time',None)
-            paraments['interval']=post_data.get('interval',None)
-        #if(self.check(paraments)==0):
-            #self.write(self.error_code)
-        sql_connector=mysqlConnector()
-        '''sql='select * from user where account_id = %s and password = %s;'
-        values=[paraments['account_id'],paraments['password']]
-        res=sql_connector.query(sql,values)
-        if(type(res)==tuple and len(res)==1):
+        paraments['user_id']=post_data.get('user_id','')
+        paraments['urls']=post_data.get('urls',[])
+        paraments['header']=post_data.get('header',{})
+        paraments['antiminer']=post_data.get('antiminer',False)
+        paraments['miner_param'] = post_data.get('miner_param', {})
+        paraments['timing']=post_data.get('timing','')
+        if(paraments['timing']=="instant"):
+            paraments['start_time'] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(paraments)
+        get=miner.finalgrab.spider(
+            paraments['user_id'],
+            paraments['urls'],
+            paraments['header'],
+            paraments['antiminer'],
+            paraments['miner_param'],
+            paraments['timing'],
+            paraments['start_time']
+        )
+        print(type(get))
+        print(json.dumps(get))
+        s=[]
+        for i in get:
+            s.append({'url':i,'data':get[i]})
+        sql_connector = mysqlConnector()
+        sql = 'insert into data (user_id,data,start_time,url) values (%s,%s,%s,%s);'
+        if(paraments['timing']=='instant'):
+            paraments['start_time']=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        else:
+            t = post_data.get('start_time', '')
+            t = t[:-6]
+            a = t.split("T")
+            paraments['start_time'] = a[0] + " " + a[1]
+        flag=0
+        print(s)
+        for i in s:
+            values=[paraments['user_id'],json.dumps(i['data']), paraments['start_time'],i['url']]
+            res = sql_connector.executeSql(sql, values)
+            if(res!=None):
+                flag=1
+                err=res
+        if flag==0:
             self.write("OK")
         else:
-            res='输入的账号或密码不存在'
+            self.write(str(err))
+        '''values = [paraments['user_id'], paraments['start_time']]
+        res = sql_connector.executeSql(sql, values)
+        print(res)
+        if (res == None):
+            self.write("OK")
+        else:
+            res = str(res)
             self.write(res)'''
 
     #def check(self,paraments):

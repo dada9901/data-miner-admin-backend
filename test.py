@@ -1,7 +1,5 @@
-import pymysql.cursors
-import pymysql
-connection=pymysql.connect(host='127.0.0.1',port=3306,user='root',password='dada9901',db='a1',charset='utf8')
-cur=connection.cursor()
-cur.execute('select * from user')
-for each in cur:
-    print(each)
+t='2021-01-04T16:00:00.000Z'
+print(t[:-8])
+t=t[:-8]
+a=t.split("T")
+print(a[0]+" "+a[1])
