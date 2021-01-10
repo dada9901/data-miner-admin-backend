@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e29831ea-c5de-43cf-b790-ea689e2e456a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/miner/grabcontent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miner/grabid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siteHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/finalgrab.py" beforeDir="false" afterPath="$PROJECT_DIR$/miner/finalgrab.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +219,8 @@
       <workItem from="1609759122454" duration="929000" />
       <workItem from="1610032141583" duration="27592000" />
       <workItem from="1610106303576" duration="134000" />
-      <workItem from="1610110635117" duration="4752000" />
+      <workItem from="1610110635117" duration="5718000" />
+      <workItem from="1610278860397" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1604976991716</created>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610106332766</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1610156364246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610156364246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,38 +279,38 @@
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="72" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1463.823@0.0.1463.823" timestamp="1606594888964" />
-    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1610106331579">
+    <state x="350" y="8" key="CommitChangelistDialog2" timestamp="1610156363308">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1610106331579" />
+    <state x="350" y="8" key="CommitChangelistDialog2/0.0.1463.823@0.0.1463.823" timestamp="1610156363308" />
     <state x="512" y="155" key="FileChooserDialogImpl" timestamp="1604976843143">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="512" y="155" key="FileChooserDialogImpl/0.0.1463.823@0.0.1463.823" timestamp="1604976843143" />
-    <state width="1420" height="214" key="GridCell.Tab.0.bottom" timestamp="1610150822156">
+    <state width="1420" height="214" key="GridCell.Tab.0.bottom" timestamp="1610281338854">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="214" key="GridCell.Tab.0.bottom/0.0.1463.823@0.0.1463.823" timestamp="1610150822156" />
-    <state width="1420" height="214" key="GridCell.Tab.0.center" timestamp="1610150822156">
+    <state width="1420" height="214" key="GridCell.Tab.0.bottom/0.0.1463.823@0.0.1463.823" timestamp="1610281338854" />
+    <state width="1420" height="214" key="GridCell.Tab.0.center" timestamp="1610281338854">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="214" key="GridCell.Tab.0.center/0.0.1463.823@0.0.1463.823" timestamp="1610150822156" />
-    <state width="1420" height="214" key="GridCell.Tab.0.left" timestamp="1610150822156">
+    <state width="1420" height="214" key="GridCell.Tab.0.center/0.0.1463.823@0.0.1463.823" timestamp="1610281338854" />
+    <state width="1420" height="214" key="GridCell.Tab.0.left" timestamp="1610281338854">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="214" key="GridCell.Tab.0.left/0.0.1463.823@0.0.1463.823" timestamp="1610150822156" />
-    <state width="1420" height="214" key="GridCell.Tab.0.right" timestamp="1610150822156">
+    <state width="1420" height="214" key="GridCell.Tab.0.left/0.0.1463.823@0.0.1463.823" timestamp="1610281338854" />
+    <state width="1420" height="214" key="GridCell.Tab.0.right" timestamp="1610281338854">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state width="1420" height="214" key="GridCell.Tab.0.right/0.0.1463.823@0.0.1463.823" timestamp="1610150822156" />
+    <state width="1420" height="214" key="GridCell.Tab.0.right/0.0.1463.823@0.0.1463.823" timestamp="1610281338854" />
     <state x="164" y="62" key="SettingsEditor" timestamp="1605370198247">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
     <state x="164" y="62" key="SettingsEditor/0.0.1463.823@0.0.1463.823" timestamp="1605370198247" />
-    <state x="324" y="147" key="Vcs.Push.Dialog.v2" timestamp="1610106343592">
+    <state x="324" y="147" key="Vcs.Push.Dialog.v2" timestamp="1610156369070">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
-    <state x="324" y="147" key="Vcs.Push.Dialog.v2/0.0.1463.823@0.0.1463.823" timestamp="1610106343592" />
+    <state x="324" y="147" key="Vcs.Push.Dialog.v2/0.0.1463.823@0.0.1463.823" timestamp="1610156369070" />
     <state x="421" y="51" width="621" height="720" key="find.popup" timestamp="1610060615598">
       <screen x="0" y="0" width="1463" height="823" />
     </state>
@@ -316,7 +325,7 @@
     <SUITE FILE_PATH="coverage/adminsys$requirementsGenerator.coverage" NAME="requirementsGenerator Coverage Results" MODIFIED="1604109015368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adminsys$finalgrab.coverage" NAME="finalgrab Coverage Results" MODIFIED="1610052418717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miner" />
     <SUITE FILE_PATH="coverage/adminsys$test.coverage" NAME="test Coverage Results" MODIFIED="1610073477255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adminsys$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1610150822140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adminsys$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1610281338847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adminsys$tablegrab.coverage" NAME="tablegrab Coverage Results" MODIFIED="1605972064758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miner" />
     <SUITE FILE_PATH="coverage/adminsys$mysqlConnector.coverage" NAME="mysqlConnector Coverage Results" MODIFIED="1604131893616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adminsys$testTornado.coverage" NAME="testTornado Coverage Results" MODIFIED="1604143718929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

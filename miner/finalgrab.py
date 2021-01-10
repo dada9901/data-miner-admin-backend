@@ -13,6 +13,32 @@ DATA_FORDER = os.path.join(DEFAULT_FORDER, 'data')
 PIC_FORDER = os.path.join(DEFAULT_FORDER, 'pic')
 
 
+def grab_urls(domain='', url_prefix='', url_re='', page_template='', max_page=0, page_range=[], first_page=''):
+    urls = []
+    pages = []
+
+    page = domain + '/' + first_page
+    pages.append(page)
+    if len(page_range) > 0:
+        for i in page_range:
+            page = domain + '/' + page_template.format(str(i))
+            pages.append(page)
+    else:
+        for i in range(1, max_page + 1):
+            page = domain + '/' + page_template.format(str(i))
+            pages.append(page)
+
+    for page in pages:
+        html = html_grab('get', page)
+        soup = BeautifulSoup(html, 'lxml')
+        page_urls = soup.find_all('a', {"href": re.compile(url_re)})
+        for url in page_urls:
+            url = url['href']
+            if url.startswith('.'):
+                url = url_prefix + url[1:]
+            urls.append(url)
+    return urls
+
 def spider(user_id='',
            urls=[],
            antiminer=False,
